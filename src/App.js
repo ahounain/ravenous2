@@ -5,7 +5,7 @@ import Business from './Business';
 function App() {
   return (
     <div className="App">
-      <Business />
+      <Business business = { Business } />
     </div>
   );
 }
